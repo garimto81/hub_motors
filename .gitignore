@@ -1,0 +1,47 @@
+# Claude Code workspace (project-local config, not for repo)
+.claude/
+
+# Node / RN / Expo
+node_modules/
+.expo/
+.expo-shared/
+dist/
+build/
+*.log
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test / coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Vercel
+.vercel/
+.turbo/
+
+# Python (if any tooling)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local backups
+*.bak
+*.backup
